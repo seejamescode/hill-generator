@@ -20,7 +20,20 @@ var obj = {
     'A guy dressed like a turkey',
     'Spidermonkeys',
     'The kid picking his nose',
-    'Two turtledoves'
+    'Two turtledoves',
+    'Our own shadows',
+    'An evil twin sister',
+    'The All-American Table Tennis Team',
+    'A vegan butcher',
+    'The anti-hero',
+    'The roommate with a snoring problem',
+    'Your imaginary significant other',
+    'A hairy monk',
+    'A skating rink DJ',
+    'A highly-aggressive salesperson',
+    'One of the extras in a hit sitcom',
+    'A terribly-timed Opera singer',
+    'Molepeople'
   ],
   what: [
     'can file their taxes',
@@ -37,7 +50,18 @@ var obj = {
     'can sing the blues',
     'can fix the economy',
     'can do it all',
-    'can poop'
+    'can poop',
+    'can become a real-estate mogul',
+    'can code worthless web apps',
+    'can catch their own tail',
+    'can book a trip to Kansas',
+    'can commit insurance fraud',
+    'can score a goal for the right team',
+    'can avoid calling their ex',
+    'can lead a silent disco',
+    'can shake it like a polaroid picture',
+    'can watch a rom-com without crying',
+    'can sing Total Eclipse of the Heart'
   ],
   wow: [
     'faster than the speed of light.',
@@ -54,7 +78,18 @@ var obj = {
     'and only give up five times.',
     'without anybody noticing.',
     'and only mess up a bit.',
-    'way better than their arch-enemy.'
+    'way better than their arch-enemy.',
+    'with their faces inside out.',
+    'unlike that James guy.',
+    'during rush hour.',
+    'without losing any body parts.',
+    'without spilling their beer.',
+    'at the top of every hour.',
+    'very discreetly.',
+    'while collaborating remotely.',
+    'in skinny jeans.',
+    'like a smooth criminal.',
+    'and blame it all on the dog.'
   ]
 }
 
