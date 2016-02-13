@@ -1,6 +1,7 @@
 body {
   height: 100%;
   margin: 0;
+  overflow: hidden;
   width: 100%;
 }
 
@@ -14,6 +15,7 @@ body {
   height: calc(100vh - 2rem);
   justify-content: space-around;
   padding: 1rem 0;
+  position: fixed;
   -webkit-align-items: center;
   -webkit-flex-direction: column;
   -webkit-font-smoothing: antialiased;
