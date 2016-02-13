@@ -15,8 +15,7 @@ body {
   display: flex;
   flex-direction: column;
   font-family: HelveticaNeue, HelveticaNeue, "Helvetica Neue", Helvetica, Arial, Roboto, sans-serif;
-  height: calc(80% - 2rem);
-  height: calc(80vh - 2rem);
+  height: calc(100% - 2rem);
   justify-content: space-between;
   padding: 1rem 0;
   -webkit-align-items: center;
@@ -24,7 +23,6 @@ body {
   -webkit-font-smoothing: antialiased;
   -webkit-justify-content: space-between;
   width: 100%;
-  width: 100vw;
 }
 
 .title {
@@ -121,7 +119,33 @@ body {
   }
 }
 
+/** 
+ * iPad with portrait orientation.
+ */
+@media all and (device-width: 768px) and (device-height: 1024px) and (orientation:portrait){
+  body {
+    height: 1024px;
+  }
+}
 
+/** 
+ * iPad with landscape orientation.
+ */
+@media all and (device-width: 768px) and (device-height: 1024px) and (orientation:landscape){
+  body {
+    height: 768px;
+  }
+}
+
+/**
+ * iPhone 5
+ * You can also target devices with aspect ratio.
+ */
+@media screen and (device-aspect-ratio: 40/71) {
+  body {
+    height: 500px;
+  }
+}
 
 
 
