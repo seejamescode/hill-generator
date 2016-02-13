@@ -48,10 +48,6 @@ body {
 .hill__wow {
   color: #323232;
 }
-
-.bottom {
-  text-align: center;
-}
   
 .button {
   background: transparent;
@@ -59,7 +55,6 @@ body {
   color: #323232;
   font-size: 1.25rem;
   line-height: 1.2em;
-  margin-bottom: 1rem;
   padding: 1rem 1.5rem;
   transition: .5s all linear;
   -webkit-transition: .5s all linear;
@@ -100,10 +95,6 @@ body {
   .hill, .button {
     font-size: 1.5rem;
     line-height: 1.25em;
-  }
-
-  .button {
-    margin-bottom: 2rem;
   }
 }
 
