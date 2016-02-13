@@ -78,3 +78,5 @@ function generateHill() {
   }, 500);
   ga('send', 'event', 'Hill Generator', 'generated');
 };
+
+generateHill();
