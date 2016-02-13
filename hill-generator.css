@@ -15,8 +15,8 @@ body {
   display: flex;
   flex-direction: column;
   font-family: HelveticaNeue, HelveticaNeue, "Helvetica Neue", Helvetica, Arial, Roboto, sans-serif;
-  height: calc(90% - 2rem);
-  height: calc(90vh - 2rem);
+  height: calc(80% - 2rem);
+  height: calc(80vh - 2rem);
   justify-content: space-between;
   padding: 1rem 0;
   -webkit-align-items: center;
