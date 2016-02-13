@@ -32,7 +32,7 @@ var obj = {
     'A skating rink DJ',
     'A highly-aggressive salesperson',
     'One of the extras in a hit sitcom',
-    'A terribly-timed Opera singer',
+    'A terribly-timed opera singer',
     'Molepeople'
   ],
   what: [
