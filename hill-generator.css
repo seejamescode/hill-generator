@@ -1,0 +1,113 @@
+body {
+  margin: 0;
+}
+
+.container {
+  align-content: center;
+  background: #f9f9f9;
+  display: flex;
+  flex-direction: column;
+  font-family: HelveticaNeue, HelveticaNeue, "Helvetica Neue", Helvetica, Arial, Roboto, sans-serif;
+  height: calc(100vh - 2rem);
+  justify-content: space-around;
+  padding: 1rem 0;
+  -webkit-align-items: center;
+  -webkit-flex-direction: column;
+  -webkit-font-smoothing: antialiased;
+  -webkit-justify-content: space-between;
+  width: 100vw;
+}
+
+.title {
+  font-size: 1.953125rem;
+  line-height: 1.216em;
+  margin: 0;
+}
+  
+.hill {
+  font-size: 1.25rem;
+  line-height: 1.2em;
+  margin: 0 10%;
+}
+
+.hill__who {
+  color: #e71d32;
+}
+
+.hill__what {
+  color: #4178be;
+}
+
+.hill__wow {
+  color: #323232;
+}
+
+.bottom {
+  text-align: center;
+}
+  
+.button {
+  background: transparent;
+  border: 4px solid #323232;
+  color: #323232;
+  font-size: 1.25rem;
+  line-height: 1.2em;
+  margin-bottom: 2rem;
+  padding: 1rem 1.5rem;
+  transition: .5s all linear;
+  -webkit-transition: .5s all linear;
+}
+
+.button:hover {
+  background: #323232;
+  color: #f9f9f9;
+  cursor: pointer;
+}
+  
+.description {
+  text-align: left;
+}
+    
+.description__link {
+  color: #323232;
+  line-height: 1.5rem;
+  text-decoration: none;
+}
+
+.description__link:hover {
+  border-bottom: 2px solid #323232;
+}
+
+@media only screen and (min-width: 31.3125em) {
+  .container {
+    height: calc(100vh - 4rem);
+    padding: 2rem 0;
+  }
+
+  .title {
+    font-size: 3.375rem;
+    line-height: 1.11111111111em;
+  }
+
+  .hill, .button {
+    font-size: 1.5rem;
+    line-height: 1.25em;
+  }
+}
+
+@media only screen and (min-width: 48.5625em) {
+  .title {
+    font-size: 4.23606798rem;
+    line-height: 1.0623059em;
+  }
+
+  .hill, .button {
+    font-size: 1.61803399rem;
+    line-height: 1.15881373em;
+  }
+}
+
+
+
+
+
