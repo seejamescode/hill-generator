@@ -2,22 +2,22 @@ body {
   align-content: center;
   background: #f9f9f9;
   display: flex;
-  height: 100%;
-  height: 100vh;
   margin: 0;
   overflow: hidden;
   -webkit-align-items: center;
-  width: 100%;
 }
 
 .container {
   align-items: center;
+  bottom: 0;
   display: flex;
   flex-direction: column;
   font-family: HelveticaNeue, HelveticaNeue, "Helvetica Neue", Helvetica, Arial, Roboto, sans-serif;
   height: calc(100% - 2rem);
   justify-content: space-between;
   padding: 1rem 0;
+  position: absolute;
+  top: 0;
   -webkit-align-items: center;
   -webkit-flex-direction: column;
   -webkit-font-smoothing: antialiased;
@@ -118,34 +118,3 @@ body {
     line-height: 1.15881373em;
   }
 }
-
-/** 
- * iPad with portrait orientation.
- */
-@media all and (device-width: 768px) and (device-height: 1024px) and (orientation:portrait){
-  body {
-    height: 1024px;
-  }
-}
-
-/** 
- * iPad with landscape orientation.
- */
-@media all and (device-width: 768px) and (device-height: 1024px) and (orientation:landscape){
-  body {
-    height: 768px;
-  }
-}
-
-/**
- * iPhone 5
- * You can also target devices with aspect ratio.
- */
-@media screen and (device-aspect-ratio: 40/71) {
-  body {
-    height: 500px;
-  }
-}
-
-
-
