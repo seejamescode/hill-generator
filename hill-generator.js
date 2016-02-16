@@ -33,7 +33,17 @@ var obj = {
     'A highly-aggressive salesperson',
     'One of the extras in a hit sitcom',
     'A terribly-timed opera singer',
-    'Molepeople'
+    'Molepeople',
+    'A gaggle of geese',
+    'A band of ninjas',
+    'A no-stack developer',
+    'A distinguished camel jockey',
+    'An underpaid male model',
+    'A comic-sans loving designer',
+    'That rapper from your high school',
+    'A start-up founder with the next big thing',
+    'Beauty school dropouts',
+    'Martians'
   ],
   what: [
     'can file their taxes',
@@ -61,7 +71,18 @@ var obj = {
     'can lead a silent disco',
     'can shake it like a polaroid picture',
     'can watch a rom-com without crying',
-    'can sing Total Eclipse of the Heart'
+    'can sing Total Eclipse of the Heart',
+    'can cure the zombie outbreak',
+    'can subvert a government',
+    'can shoot frickin laser beams out of their eyes',
+    'can eat a barrel of pickles',
+    'can take this little piggy to the market',
+    'can make America great again',
+    'can write a decent hill',
+    'can dwell on the past',
+    'can remember the titans',
+    'can remember their mother\u0027s birthday',
+    'can arm wrestle a bear'
   ],
   wow: [
     'faster than the speed of light.',
@@ -89,7 +110,17 @@ var obj = {
     'while collaborating remotely.',
     'in skinny jeans.',
     'like a smooth criminal.',
-    'and blame it all on the dog.'
+    'and blame it all on the dog.',
+    'blindfolded.',
+    'with their toes.',
+    'while sleeping the weekend away.',
+    'without a conference call.',
+    'wearing nothing but a smile.',
+    'without asking permission.',
+    'without a hill.',
+    'in the vacuum of space.',
+    'in fewer than three clicks.',
+    'with no consequences.'
   ]
 }
 
