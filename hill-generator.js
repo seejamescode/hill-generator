@@ -37,7 +37,6 @@ var obj = {
     'A gaggle of geese',
     'A band of ninjas',
     'A no-stack developer',
-    'A distinguished camel jockey',
     'An underpaid male model',
     'A comic-sans loving designer',
     'That rapper from your high school',
